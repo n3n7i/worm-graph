@@ -53,3 +53,7 @@ perm1 = indexin(us1, ut1)
 act2 = (act1' * zm)[perm1];
 
 
+zm_forward = zm[:, perm1]; ## Row & Column id Symmetry  
+
+
+
